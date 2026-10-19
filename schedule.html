@@ -1,28 +1,52 @@
-<html>
+<!DOCTYPE html>
+<html lang="ru">
 <head>
-    <title>Мое расписание</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Расписание ивентов — Shinenovell</title>
+    <meta name="description" content="Расписание игровых ивентов Shinenovell: время проведения загадок во вторник и испытаний высокой сложности в четверг.">
 </head>
 <body>
 
-    <h1>Расписание ивентов</h1>
+    <header>
+        <a href="#content">Перейти к содержанию</a>
+        <h1>Расписание ивентов</h1>
+        <nav aria-label="Основная навигация">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="contact.html">Обратная связь</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <table>
-        <tr>
-            <td><b>День</b></td>
-            <td><b>Время</b></td>
-            <td><b>Ивент</b></td>
-        </tr>
-        <tr>
-            <td>Вторник</td>
-            <td>15:00–16:30</td>
-            <td>Загадки</td>
-        </tr>
-        <tr>
-            <td>Четверг</td>
-            <td>18:00–19:00</td>
-            <td>Высокая сложность</td>
-        </tr>
-    </table>
+    <main id="content">
+        <table>
+            <caption>Расписание игровых ивентов</caption>
+            <thead>
+                <tr>
+                    <th scope="col">День</th>
+                    <th scope="col">Время</th>
+                    <th scope="col">Ивент</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Вторник</th>
+                    <td>15:00–16:30</td>
+                    <td>Загадки</td>
+                </tr>
+                <tr>
+                    <th scope="row">Четверг</th>
+                    <td>18:00–19:00</td>
+                    <td>Высокая сложность</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p><a href="index.html">Вернуться на главную</a></p>
+    </footer>
 
 </body>
 </html>
